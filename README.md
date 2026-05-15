@@ -17,13 +17,24 @@ LearnPlaywrightBatch2X/
 ├── chapter_02_Javascript_Concepts/
 │   └── 05_JS_Basics.js            # Core JavaScript concepts
 │
-└── chapter_03_Identifier_Literals/
-    ├── 06_Identifier_Rules.js     # Rules for JavaScript identifiers
-    ├── 07_Identifier_Part2.js     # Naming conventions (camelCase, snake_case, etc.)
-    ├── 08_Comments.js             # Single-line and multi-line comments
-    ├── JS_Identifiers_Rules.js    # Comprehensive identifier rules with examples
-    ├── VS_Code_KeyboardShortcut_windows.md  # VS Code shortcuts for Windows
-    └── VS_Code_KeyboardShortcut_mac.md      # VS Code shortcuts for macOS
+├── chapter_03_Identifier_Literals/
+│   ├── 06_Identifier_Rules.js     # Rules for JavaScript identifiers
+│   ├── 07_Identifier_Part2.js     # Naming conventions (camelCase, snake_case, etc.)
+│   ├── 08_Comments.js             # Single-line and multi-line comments
+│   ├── JS_Identifiers_Rules.js    # Comprehensive identifier rules with examples
+│   ├── VS_Code_KeyboardShortcut_windows.md  # VS Code shortcuts for Windows
+│   └── VS_Code_KeyboardShortcut_mac.md      # VS Code shortcuts for macOS
+│
+└── chapter_04_Javascript_Concepts/
+    ├── 09_var_let_const.js        # var vs let vs const comparison
+    ├── 10_Functions.js            # Function declarations and expressions
+    ├── 11_var_explained.js        # Deep dive into var behaviour
+    ├── 12_let_people_love.js      # Why developers prefer let
+    ├── 13_constant_explained.js   # Understanding const
+    ├── 14_var_functionscope.js    # var and function scope
+    ├── 15_let_scope.js            # Block scope with let
+    ├── 16_hoisting.js             # Variable hoisting explained
+    └── 17_hoisting_fn.js          # Function hoisting explained
 ```
 
 ---
@@ -50,6 +61,17 @@ LearnPlaywrightBatch2X/
   - `kebab-case` — **not valid** in JS identifiers
 - Comments (single-line `//` and multi-line `/* */`)
 - VS Code keyboard shortcuts for Windows and macOS
+
+### Chapter 04 — JavaScript Concepts (Variables, Scope & Hoisting)
+- `var`, `let`, and `const` — differences and when to use each
+- Function declarations vs function expressions
+- Deep dive into `var` behaviour and quirks
+- Why developers prefer `let` over `var`
+- Understanding `const` and immutability
+- Function scope with `var`
+- Block scope with `let`
+- Variable hoisting — how JS moves declarations to the top
+- Function hoisting — how entire functions are hoisted
 
 ---
 
