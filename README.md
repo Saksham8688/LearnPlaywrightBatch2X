@@ -25,16 +25,30 @@ LearnPlaywrightBatch2X/
 │   ├── VS_Code_KeyboardShortcut_windows.md  # VS Code shortcuts for Windows
 │   └── VS_Code_KeyboardShortcut_mac.md      # VS Code shortcuts for macOS
 │
-└── chapter_04_Javascript_Concepts/
-    ├── 09_var_let_const.js        # var vs let vs const comparison
-    ├── 10_Functions.js            # Function declarations and expressions
-    ├── 11_var_explained.js        # Deep dive into var behaviour
-    ├── 12_let_people_love.js      # Why developers prefer let
-    ├── 13_constant_explained.js   # Understanding const
-    ├── 14_var_functionscope.js    # var and function scope
-    ├── 15_let_scope.js            # Block scope with let
-    ├── 16_hoisting.js             # Variable hoisting explained
-    └── 17_hoisting_fn.js          # Function hoisting explained
+├── chapter_04_Javascript_Concepts/
+│   ├── 09_var_let_const.js        # var vs let vs const comparison
+│   ├── 10_Functions.js            # Function declarations and expressions
+│   ├── 11_var_explained.js        # Deep dive into var behaviour
+│   ├── 12_let_people_love.js      # Why developers prefer let
+│   ├── 13_constant_explained.js   # Understanding const
+│   ├── 14_var_functionscope.js    # var and function scope
+│   ├── 15_let_scope.js            # Block scope with let
+│   ├── 16_hoisting.js             # Variable hoisting explained
+│   ├── 17_hoisting_fn.js          # Function hoisting explained
+│   ├── 18_let_hoisting.js         # let hoisting behaviour
+│   ├── 19_let_hoisting_block.js   # let hoisting in block scope
+│   ├── 20_let_const.js            # let and const together
+│   └── 21_Jr_Qa.js                # Junior QA practice exercises
+│
+└── chapter_05_literals/
+    ├── 22_Literal.js                        # Introduction to literals
+    ├── 23_null_undefined.js                 # null vs undefined explained
+    ├── 24_null.js                           # null deep dive
+    ├── 25_Literal_all.js                    # All literal types overview
+    ├── 26_literal_number_all.js             # All number types in JavaScript
+    ├── 27_String.js                         # String literals
+    ├── 28_Template_Literal.js               # Template literals with ${}
+    └── 29_backtick_single_double_quote.js   # Backtick vs single vs double quote
 ```
 
 ---
@@ -72,6 +86,18 @@ LearnPlaywrightBatch2X/
 - Block scope with `let`
 - Variable hoisting — how JS moves declarations to the top
 - Function hoisting — how entire functions are hoisted
+- `let` hoisting and the Temporal Dead Zone (TDZ)
+- Junior QA practice exercises
+
+### Chapter 05 — Literals
+- Introduction to JavaScript literals
+- `null` vs `undefined` — what they mean and when to use each
+- Deep dive into `null`
+- All literal types in JavaScript
+- All number types: Integer, Float, Exponential, Binary, Octal, Hex, BigInt, NaN, Infinity
+- String literals and string methods
+- Template literals with `${}` expressions
+- Backtick vs single quote vs double quote — key differences
 
 ---
 
