@@ -31,6 +31,6 @@ const timestamp = Date.now();
 await page.screenshot({ path: `screenshots/${testcase}_${timestamp}.png` });
 // Saves screenshot with dynamic filename
 
-// Template literals are a powerful way to create dynamic 
-// strings with embedded expressions and multi-line support, 
+// Template literals are a powerful way to create dynamic
+// strings with embedded expressions and multi-line support,
 // making code cleaner and more readable.

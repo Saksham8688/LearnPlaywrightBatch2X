@@ -1,0 +1,11 @@
+// logical operator 
+//  && -> AND Gate
+//  || -> OR Gate
+
+let a = true;
+let b = false;
+
+console.log(a && b); // Output: false (both need to be true for AND)
+console.log(a || b); // Output: true (at least one is true for OR)
+
+console.log(!a); // Output: false (NOT operator negates the value of a)

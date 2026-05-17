@@ -40,15 +40,32 @@ LearnPlaywrightBatch2X/
 │   ├── 20_let_const.js            # let and const together
 │   └── 21_Jr_Qa.js                # Junior QA practice exercises
 │
-└── chapter_05_literals/
-    ├── 22_Literal.js                        # Introduction to literals
-    ├── 23_null_undefined.js                 # null vs undefined explained
-    ├── 24_null.js                           # null deep dive
-    ├── 25_Literal_all.js                    # All literal types overview
-    ├── 26_literal_number_all.js             # All number types in JavaScript
-    ├── 27_String.js                         # String literals
-    ├── 28_Template_Literal.js               # Template literals with ${}
-    └── 29_backtick_single_double_quote.js   # Backtick vs single vs double quote
+├── chapter_05_literals/
+│   ├── 22_Literal.js                        # Introduction to literals
+│   ├── 23_null_undefined.js                 # null vs undefined explained
+│   ├── 24_null.js                           # null deep dive
+│   ├── 25_Literal_all.js                    # All literal types overview
+│   ├── 26_literal_number_all.js             # All number types in JavaScript
+│   ├── 27_String.js                         # String literals
+│   ├── 28_Template_Literal.js               # Template literals with ${}
+│   └── 29_backtick_single_double_quote.js   # Backtick vs single vs double quote
+│
+└── chapter_06_Operator/
+    ├── 30_Operators.js                      # Introduction to operators
+    ├── 31_Arithmetic_Operators.js           # +, -, *, /, %
+    ├── 32_Modulus_Operator.js               # Modulus (%) deep dive
+    ├── 33_Exponential_Operator.js           # Exponentiation (**)
+    ├── 34_IQ.js                             # Operator IQ practice
+    ├── 35_Comparsion_Operator.js            # Comparison operators overview
+    ├── 36_Comparsion_Strict_loose.js        # Strict vs loose comparison
+    ├── 37_IQ_loose_Strict.js                # IQ: loose vs strict equality
+    ├── 38_Confusing_Comparsion.js           # Confusing == and === edge cases
+    ├── 39_Logical_Operators.js              # &&, ||, ! logical operators
+    ├── 40_String_Concatenate_Operator.js    # String concatenation with +
+    ├── 41_Ternary_Operator.js               # condition ? true : false
+    ├── 42_Type_Of_Operator.js               # typeof operator
+    ├── 43_Increment_Decrement_Operator.js   # ++, -- operators
+    └── 44_Null_Operator.js                  # Nullish coalescing (??)
 ```
 
 ---
@@ -98,6 +115,22 @@ LearnPlaywrightBatch2X/
 - String literals and string methods
 - Template literals with `${}` expressions
 - Backtick vs single quote vs double quote — key differences
+
+### Chapter 06 — Operators
+- Introduction to JavaScript operators
+- Arithmetic operators: `+`, `-`, `*`, `/`, `%`
+- Modulus operator deep dive
+- Exponentiation operator `**`
+- Operator IQ practice
+- Comparison operators: `>`, `<`, `>=`, `<=`
+- Strict (`===`) vs loose (`==`) equality
+- Confusing `==` and `===` edge cases (null, NaN, [], {})
+- Logical operators: `&&`, `||`, `!`
+- String concatenation with `+`
+- Ternary operator: `condition ? true : false`
+- `typeof` operator
+- Increment (`++`) and decrement (`--`) operators
+- Nullish coalescing operator `??`
 
 ---
 
