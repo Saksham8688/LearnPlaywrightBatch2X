@@ -65,7 +65,10 @@ LearnPlaywrightBatch2X/
     ├── 41_Ternary_Operator.js               # condition ? true : false
     ├── 42_Type_Of_Operator.js               # typeof operator
     ├── 43_Increment_Decrement_Operator.js   # ++, -- operators
-    └── 44_Null_Operator.js                  # Nullish coalescing (??)
+    ├── 44_Null_Operator.js                  # Nullish coalescing (??)
+    ├── 45_Post_Increment_Operator.js        # Post-increment operator deep dive
+    ├── 46_IQ_Increment_D.js                 # IQ: increment/decrement practice
+    └── 47_IQ_Advance_Increment.js           # Advanced increment IQ challenges
 ```
 
 ---
@@ -130,7 +133,10 @@ LearnPlaywrightBatch2X/
 - Ternary operator: `condition ? true : false`
 - `typeof` operator
 - Increment (`++`) and decrement (`--`) operators
+- Post-increment operator deep dive
 - Nullish coalescing operator `??`
+- IQ practice: increment/decrement
+- Advanced increment/decrement challenges
 
 ---
 
