@@ -69,6 +69,36 @@ LearnPlaywrightBatch2X/
     ├── 45_Post_Increment_Operator.js        # Post-increment operator deep dive
     ├── 46_IQ_Increment_D.js                 # IQ: increment/decrement practice
     └── 47_IQ_Advance_Increment.js           # Advanced increment IQ challenges
+
+├── chapter_07_If_Else/
+│   ├── 48_If_Else.js                        # Basic if/else statement
+│   ├── 49_If_ElseIf_Else.js                 # if/else if/else chains
+│   ├── 50_Real_If_Else.js                   # Real-world if/else examples
+│   ├── 51_API_If_Else.js                    # if/else with API responses
+│   ├── 52_IQ_If_Else.js                     # IQ: if/else practice
+│   ├── 53_If_else_real.js                   # Real scenarios with if/else
+│   ├── 54_IQ.js                             # IQ practice exercises
+│   ├── 55_IF.js                             # Standalone if statement
+│   ├── 56_Even_Odd.js                       # Even or odd number check
+│   ├── 57_Student_Grade_Calculator.js       # Grade calculator using if/else
+│   └── 58_Leap_Year.js                      # Leap year check program
+│
+├── chapter_08_Switch_Statement/
+│   ├── 59_Swtich.js                         # Basic switch statement
+│   ├── 60_No_Break.js                       # Switch without break (fall-through)
+│   ├── 61_Default.js                        # Switch with default case
+│   ├── 62_Real_Time_Example.js              # Real-world switch example
+│   ├── 63_Switch_Group.js                   # Grouped cases in switch
+│   ├── 64_IQ.js                             # Switch IQ practice 1
+│   ├── 65_IQ2.js                            # Switch IQ practice 2
+│   ├── 66_IQ3.js                            # Switch IQ practice 3
+│   └── 67_IQ4.js                            # Switch IQ practice 4
+│
+├── chapter_09_User_Input/                   # (folder reserved for future input examples)
+│
+├── 68_User_Input.js                         # Introduction to user input in Node.js
+├── 69_Node_readline.js                      # Reading input using node:readline
+└── 70_Prompt_Sync.js                        # Reading input using prompt-sync
 ```
 
 ---
@@ -137,6 +167,30 @@ LearnPlaywrightBatch2X/
 - Nullish coalescing operator `??`
 - IQ practice: increment/decrement
 - Advanced increment/decrement challenges
+
+### Chapter 07 — If / Else (Conditional Statements)
+- Basic `if` and `if/else` statements
+- `if / else if / else` chains
+- Real-world scenarios with `if/else`
+- Conditional logic with API responses
+- Standalone `if` statement
+- Even or odd number check
+- Student grade calculator
+- Leap year program
+- IQ practice exercises
+
+### Chapter 08 — Switch Statement
+- Basic `switch` syntax
+- Switch without `break` (fall-through behaviour)
+- `default` case usage
+- Real-world switch examples
+- Grouped cases in switch
+- IQ practice (multiple sets)
+
+### Chapter 09 — User Input (Node.js)
+- Reading input from the terminal/console
+- Using the built-in `node:readline` module
+- Using the `prompt-sync` package for synchronous input
 
 ---
 
