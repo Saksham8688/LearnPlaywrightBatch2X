@@ -99,12 +99,30 @@ LearnPlaywrightBatch2X/
 │   ├── 69_Node_readline.js                  # Reading input using node:readline
 │   └── 70_Prompt_Sync.js                    # Reading input using prompt-sync
 │
-└── Task_20th_May_If_Else/
-    ├── Task_1_HTTP_Status_Code.js              # Classify HTTP status codes
-    ├── Task_2_TestCase_Pass_Fail_Verdict.js    # Test case pass/fail verdict
-    ├── Task_3_Bug_Serverity.js                 # Bug severity classifier
-    ├── Task_4_Build_Health_Reporter.js         # Build health reporter
-    └── Task_5_Login_Lockout_Fail_Attempt.js    # Login lockout after failed attempts
+├── chapter_10_Loops/
+│   ├── 71_For_Loop.js                       # Introduction to for loop
+│   ├── 72_For_Loop.js                       # for loop continued
+│   ├── 73_For_Loop2.js                      # for loop advanced examples
+│   ├── 74_IQ.js                             # for loop IQ practice
+│   ├── 75_For_OF_IN_EACH.js                 # for...of, for...in, forEach
+│   ├── 76_while.js                          # while loop
+│   ├── 77_Do_while.js                       # do...while loop
+│   ├── 78_Do_while.js                       # do...while continued
+│   ├── 79_IQ.js                             # Loop IQ practice 1
+│   ├── 80_IQ.js                             # Loop IQ practice 2
+│   ├── 81_IQ.js                             # Loop IQ practice 3
+│   └── 82_IQ.js                             # Loop IQ practice 4
+│
+├── Task_20th_May_If_Else/
+│   ├── Task_1_HTTP_Status_Code.js              # Classify HTTP status codes
+│   ├── Task_2_TestCase_Pass_Fail_Verdict.js    # Test case pass/fail verdict
+│   ├── Task_3_Bug_Serverity.js                 # Bug severity classifier
+│   ├── Task_4_Build_Health_Reporter.js         # Build health reporter
+│   └── Task_5_Login_Lockout_Fail_Attempt.js    # Login lockout after failed attempts
+│
+└── Task_22nd_May.js/
+    ├── TASK_1_Triangle_Classifier.js           # Triangle classifier (Equilateral/Isosceles/Scalene)
+    └── TASK_2_FizzBuzz_Test.js                 # FizzBuzz problem solution
 ```
 
 ---
@@ -198,12 +216,23 @@ LearnPlaywrightBatch2X/
 - Using the built-in `node:readline` module
 - Using the `prompt-sync` package for synchronous input
 
+### Chapter 10 — Loops
+- `for` loop fundamentals and patterns
+- `for...of`, `for...in`, and `forEach`
+- `while` loop
+- `do...while` loop
+- Loop IQ practice exercises
+
 ### Task — 20th May (If/Else Practice)
 - HTTP status code classifier (1xx/2xx/3xx/4xx/5xx)
 - Test case pass/fail verdict
 - Bug severity classifier (Critical / High / Medium / Low)
 - Build health reporter
 - Login lockout after multiple failed attempts
+
+### Task — 22nd May
+- Triangle classifier (Equilateral / Isosceles / Scalene)
+- FizzBuzz problem
 
 ---
 
