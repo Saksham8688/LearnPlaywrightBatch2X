@@ -94,11 +94,10 @@ LearnPlaywrightBatch2X/
 │   ├── 66_IQ3.js                            # Switch IQ practice 3
 │   └── 67_IQ4.js                            # Switch IQ practice 4
 │
-├── chapter_09_User_Input/                   # (folder reserved for future input examples)
-│
-├── 68_User_Input.js                         # Introduction to user input in Node.js
-├── 69_Node_readline.js                      # Reading input using node:readline
-└── 70_Prompt_Sync.js                        # Reading input using prompt-sync
+├── chapter_09_User_Input/
+│   ├── 68_User_Input.js                     # Introduction to user input in Node.js
+│   ├── 69_Node_readline.js                  # Reading input using node:readline
+│   └── 70_Prompt_Sync.js                    # Reading input using prompt-sync
 ```
 
 ---
