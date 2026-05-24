@@ -98,6 +98,13 @@ LearnPlaywrightBatch2X/
 │   ├── 68_User_Input.js                     # Introduction to user input in Node.js
 │   ├── 69_Node_readline.js                  # Reading input using node:readline
 │   └── 70_Prompt_Sync.js                    # Reading input using prompt-sync
+│
+└── Task_20th_May_If_Else/
+    ├── Task_1_HTTP_Status_Code.js              # Classify HTTP status codes
+    ├── Task_2_TestCase_Pass_Fail_Verdict.js    # Test case pass/fail verdict
+    ├── Task_3_Bug_Serverity.js                 # Bug severity classifier
+    ├── Task_4_Build_Health_Reporter.js         # Build health reporter
+    └── Task_5_Login_Lockout_Fail_Attempt.js    # Login lockout after failed attempts
 ```
 
 ---
@@ -190,6 +197,13 @@ LearnPlaywrightBatch2X/
 - Reading input from the terminal/console
 - Using the built-in `node:readline` module
 - Using the `prompt-sync` package for synchronous input
+
+### Task — 20th May (If/Else Practice)
+- HTTP status code classifier (1xx/2xx/3xx/4xx/5xx)
+- Test case pass/fail verdict
+- Bug severity classifier (Critical / High / Medium / Low)
+- Build health reporter
+- Login lockout after multiple failed attempts
 
 ---
 
