@@ -113,6 +113,17 @@ LearnPlaywrightBatch2X/
 │   ├── 81_IQ.js                             # Loop IQ practice 3
 │   └── 82_IQ.js                             # Loop IQ practice 4
 │
+├── chapter_11_Arrays/
+│   ├── 83_Arrays.js                         # Introduction to arrays & indexing
+│   ├── 84_Arrays.js                         # Array basics continued
+│   ├── 85_Access_Arrays.js                  # Accessing & modifying with [] and at()
+│   ├── 86_Adding_Remove_Arrays.js           # push, pop, shift, unshift
+│   ├── 87_Adding_Remove2.js                 # Adding/removing elements continued
+│   ├── 88_Real_Examples.js                  # Real-world array scenarios
+│   ├── 89_Searching.js                      # indexOf, lastIndexOf, includes
+│   ├── 90_Iterate.js                        # for, for...of, forEach, for...in
+│   └── 91_Transform_Array.js                # map, filter, reduce, flat
+│
 ├── Task_20th_May_If_Else/
 │   ├── Task_1_HTTP_Status_Code.js              # Classify HTTP status codes
 │   ├── Task_2_TestCase_Pass_Fail_Verdict.js    # Test case pass/fail verdict
@@ -222,6 +233,35 @@ LearnPlaywrightBatch2X/
 - `while` loop
 - `do...while` loop
 - Loop IQ practice exercises
+
+### Chapter 11 — Arrays
+- Creating arrays and zero-based indexing
+- Arrays holding mixed data types
+- Accessing elements with `[]` and `at()` (including negative indices)
+- Adding & removing elements: `push`, `pop`, `shift`, `unshift`
+- Real-world array scenarios
+- Searching arrays: `indexOf`, `lastIndexOf`, `includes`
+- Iterating with `for`, `for...of`, `forEach`, and `for...in`
+- Transforming arrays: `map`, `filter`, `reduce`, `flat`
+
+```js
+// Transforming arrays (chapter_11_Arrays/91_Transform_Array.js)
+let scores = [45, 83, 46, 74, 98, 24, 65];
+
+// map  -> transform every element, returns a new array of the same length
+let grades = scores.map(s => s > 70 ? "Pass" : "Fail");
+// ['Fail', 'Pass', 'Fail', 'Pass', 'Pass', 'Fail', 'Fail']
+
+// filter -> keep only the elements that pass the condition
+let passing = scores.filter(s => s > 70); // [83, 74, 98]
+
+// reduce -> accumulate the array down to a single value
+let total = scores.reduce((a, b) => a + b, 0); // 435
+
+// flat -> flatten a nested array into one array
+let nested = [[1, 2], [3, 4], [5, 6]];
+console.log(nested.flat()); // [1, 2, 3, 4, 5, 6]
+```
 
 ### Task — 20th May (If/Else Practice)
 - HTTP status code classifier (1xx/2xx/3xx/4xx/5xx)
