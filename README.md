@@ -122,7 +122,21 @@ LearnPlaywrightBatch2X/
 │   ├── 88_Real_Examples.js                  # Real-world array scenarios
 │   ├── 89_Searching.js                      # indexOf, lastIndexOf, includes
 │   ├── 90_Iterate.js                        # for, for...of, forEach, for...in
-│   └── 91_Transform_Array.js                # map, filter, reduce, flat
+│   ├── 91_Transform_Array.js                # map, filter, reduce, flat
+│   ├── 92_Arrays.js                         # Additional array examples
+│   ├── 93_Array_Slicing.js                  # slice vs splice examples
+│   ├── 94_Concat_Array.js                   # Combining arrays with concat
+│   └── 95_Array_Checking.js                 # Array checking utilities
+│
+├── chapter_12_Functions/
+│   ├── 96_Functions.js                      # Function vs method basics
+│   ├── 97_Type1_Fn_Basic_Function.js        # Basic function declaration
+│   ├── 98_Type2_Fn_With_Parameter_No_Return.js # Function with parameters and no return
+│   ├── 99_Type3_Fn_Without_Parameter_Return_Type.js # Function without parameter and with return
+│   ├── 100_Type4_Fn_With_Parameter_Retrun_Type.js   # Function with parameter and return
+│   ├── 101_Template_Literals.js             # Template literal examples in functions
+│   ├── 102_Function_Expression.js           # Function expression examples
+│   └── 103_Arrow_Function.js                # Arrow function examples
 │
 ├── Task_20th_May_If_Else/
 │   ├── Task_1_HTTP_Status_Code.js              # Classify HTTP status codes
@@ -243,6 +257,9 @@ LearnPlaywrightBatch2X/
 - Searching arrays: `indexOf`, `lastIndexOf`, `includes`
 - Iterating with `for`, `for...of`, `forEach`, and `for...in`
 - Transforming arrays: `map`, `filter`, `reduce`, `flat`
+- Slicing arrays with `slice()` and editing arrays with `splice()`
+- Combining arrays with `concat()`
+- Checking arrays with common validation patterns
 
 ```js
 // Transforming arrays (chapter_11_Arrays/91_Transform_Array.js)
@@ -261,6 +278,30 @@ let total = scores.reduce((a, b) => a + b, 0); // 435
 // flat -> flatten a nested array into one array
 let nested = [[1, 2], [3, 4], [5, 6]];
 console.log(nested.flat()); // [1, 2, 3, 4, 5, 6]
+```
+
+### Chapter 12 — Functions
+- Function declarations and basic syntax
+- Function parameters and return values
+- Function expressions
+- Template literals inside functions
+- Arrow functions and short syntax
+- Difference between functions and methods
+
+```js
+// Arrow functions (chapter_12_Functions/103_Arrow_Function.js)
+const greet = function (name) {
+  return `Hello, ${name}`;
+};
+
+const greet2 = (name) => `Hello, ${name}`;
+console.log(greet2("Saksham")); // Hello, Saksham
+
+let doubleIt = n => n * 2;
+console.log(doubleIt(10)); // 20
+
+const printIt = name => console.log(name);
+printIt("Singh");
 ```
 
 ### Task — 20th May (If/Else Practice)
