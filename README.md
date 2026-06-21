@@ -352,3 +352,21 @@ GitHub: [@Saksham8688](https://github.com/Saksham8688)
 ## License
 
 This repository is for educational purposes only.
+
+---
+
+## Function Types Quick Comparison
+
+| Feature | Normal Function (Declaration) | Function Expression | Arrow Function |
+|---|---|---|---|
+| Basic Syntax | function add(a, b) { return a + b; } | const add = function(a, b) { return a + b; }; | const add = (a, b) => a + b; |
+| Hoisting | Fully hoisted, can call before definition | Variable is hoisted but not initialized, cannot call before definition | Same as function expression |
+| this behavior | Own dynamic this (depends on call site) | Own dynamic this (depends on call site) | Lexical this (inherits from outer scope) |
+| arguments object | Available | Available | Not available directly |
+| Constructor support | Yes, can use new | Yes (if regular function expression) | No, cannot use new |
+| Best use | Reusable named logic | Assign function to variable, callbacks with named/anonymous style | Short callbacks, concise functions, preserving outer this |
+
+Small example:
+- Normal: function greet(name) { return "Hi " + name; }
+- Expression: const greet = function(name) { return "Hi " + name; };
+- Arrow: const greet = (name) => "Hi " + name;
